@@ -1,4 +1,4 @@
-import CategoryMenu from './components/category-menu/category-menu.component';
+import CategoryMenu from './components/directory/directory.component';
 
 const App = () => {
 

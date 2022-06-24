@@ -1,5 +1,11 @@
 # ss-crwn-clothing
 
+![Github](https://badges.aleen42.com/src/github.svg)
+![VS Code](https://badges.aleen42.com/src/visual_studio_code.svg)
+![React](https://badges.aleen42.com/src/react.svg)
+![react-router](https://badges.aleen42.com/src/react-router.svg)
+![npm](https://badges.aleen42.com/src/npm.svg)
+
 ## Table of Contents
 
 - [Description](#description)

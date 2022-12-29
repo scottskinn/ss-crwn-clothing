@@ -1,5 +1,6 @@
 # ss-crwn-clothing
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/50d168a5-880e-4828-b2d2-2f4b080fdc72/deploy-status)](https://app.netlify.com/sites/melodious-florentine-b6f100/deploys)
 ![Github](https://badges.aleen42.com/src/github.svg)
 ![VS Code](https://badges.aleen42.com/src/visual_studio_code.svg)
 ![React](https://badges.aleen42.com/src/react.svg)
@@ -16,6 +17,8 @@
 - [Questions](#questions)
 
 ## Description
+
+Live Site: <https://melodious-florentine-b6f100.netlify.app/>
 
 E-commerce site made using React, Redux, React Hooks, React Suspense, React Router, GraphQL, Context API, Firebase, Redux-Saga, Stripe + more.
 

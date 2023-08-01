@@ -1,28 +1,14 @@
-import { CATEGORIES_ACTION_TYPES } from "./category.types";
-import { createAction } from "../../utils/reducer/reducer.utils";
-import { getCategoriesAndDocuments } from "../../utils/firebase/firebase.utils";
-
-// export const setCategories = (categoriesArray) =>
-//     createAction(CATEGORIES_ACTION_TYPES.SET_CATEGORIES, categoriesArray);
+import { CATEGORIES_ACTION_TYPES } from './category.types';
+import { createAction } from '../../utils/reducer/reducer.utils';
 
 export const fetchCategoriesStart = () =>
-    createAction(CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_START);
+  createAction(CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_START);
 
-export const fetchCategoriesSuccess = (categories) =>
-    createAction(CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_SUCCESS, categories);
+export const fetchCategoriesSuccess = (categoriesArray) =>
+  createAction(
+    CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_SUCCESS,
+    categoriesArray
+  );
 
 export const fetchCategoriesFailed = (error) =>
-    createAction(CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_FAILED, error);
-
-export const fetchCategoriesAsync = () => {
-    return async (dispatch) => {
-        dispatch(fetchCategoriesStart());
-
-        try {
-            const categories = await getCategoriesAndDocuments('categories');
-            dispatch(fetchCategoriesSuccess(categories));
-        } catch (error) {
-            dispatch(fetchCategoriesFailed(error));
-        }
-    }
-}
+  createAction(CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_FAILED, error);

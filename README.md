@@ -18,7 +18,7 @@
 
 ## Description
 
-Live Site: <https://melodious-florentine-b6f100.netlify.app/>
+Live Site: <https://ss-crwn-clothing.netlify.app/>
 
 E-commerce site made using React, Redux, React Hooks, React Suspense, React Router, GraphQL, Context API, Firebase, Redux-Saga, Stripe + more.
 
